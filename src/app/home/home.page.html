@@ -18,4 +18,24 @@
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
     <ion-button expand="block" [routerlink]="['/home']">aaaaaaaa</ion-button>
   </div>
+  <ion-accordion-group>
+  <ion-accordion value="first">
+    <ion-item slot="header" color="light">
+      <ion-label>First Accordion</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">First Content</div>
+  </ion-accordion>
+  <ion-accordion value="second">
+    <ion-item slot="header" color="light">
+      <ion-label>Second Accordion</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">Second Content</div>
+  </ion-accordion>
+  <ion-accordion value="third">
+    <ion-item slot="header" color="light">
+      <ion-label>Third Accordion</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">Third Content</div>
+  </ion-accordion>
+</ion-accordion-group>
 </ion-content>
